@@ -1,0 +1,44 @@
+/* Comentário em CSS */
+/* Seletores de CSS */
+
+/* ========== Seletor Universal ========== 
+
+* {
+    color: brown;
+}
+
+*/
+
+
+/* ========== Seletor Tag HTML ========== */
+h1 {
+    color: lightskyblue;
+}
+p {
+    /* codigo da cor no formato rgb */
+    color: rgb(10,240,100);
+}
+body {
+    /* codigo da cor em hexadecimal */
+    background: linear-gradient(to right,red 30%, yellow 60%, green 90%);
+    /* background: radial-gradient(circle, blue, white); */
+    
+}
+
+a{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+/* ========== Seletor Class ========== */
+.paragrafo-bolha {
+    color: rgba(10,240,100,0.8);
+}
+.div-teste{
+    background: linear-gradient(to right, white, yellow);
+}
+
+/* ========== Seletor ID ========== */
+#paragrafo-henry {
+    color: red;
+}

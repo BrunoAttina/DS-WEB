@@ -1,0 +1,68 @@
+h1{
+    text-shadow: 2px 2px 4px black;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  border: 5px double black;
+  border-radius: 30px;
+  filter: blur(10px);
+}
+
+img:hover{
+    filter: blur(0px);
+}
+
+
+table, th, td {
+  border: 3px double black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;   /* espaço interno */
+  text-align: center; /* centralizar texto */
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+td {
+  background-color: #f2f2f2;
+}
+
+table {
+  width: 100%;   /* ocupa toda a largura */
+}
+
+th, td {
+  height: 40px;  /* altura das células */
+}
+
+div{
+  float: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+.div1 {
+  background-color: skyblue;
+}
+
+.div2 {
+  background-color: rebeccapurple;
+}
+
+.div3 {
+  background-color: maroon;
+}
