@@ -1,0 +1,70 @@
+.div-center{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.div-line{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9  {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover, .div8:hover, .div9:hover{
+    color: white;
+}
+
+.div1 {
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.div2 {
+    background-color: aqua;
+    border: 2px dotted black;
+}
+
+.div3 {
+    background-color: blue;
+    border: 2px double black;
+}
+
+.div4 {
+    background-color: blueviolet;
+    border: 2px dotted black;
+    
+}
+
+.div5 {
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.div6 {
+    background-color: burlywood;
+    border: 2px dotted black;
+}
+
+.div7 {
+    background-color: chartreuse;
+    border: 2px double black;
+}
+
+.div8 {
+    background-color: blanchedalmond;
+    border: 2px dotted black;
+}
+
+.div9 {
+    background-color: crimson;
+    border: 2px solid black;
+}
